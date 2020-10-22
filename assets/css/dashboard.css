@@ -1,0 +1,45 @@
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+.bg-coffe-brown {
+    background-color: #563828;
+    background-image: linear-gradient(180deg,#765131 10%,#563828 100%);
+    background-size: cover;
+}
+.btn-coffee {
+    color: #fff;
+    background-color: #563828;
+    border-color: #765131;
+  }
+  
+  .btn-coffee:hover {
+    color: #fff;
+    background-color: #563828;
+    border-color: #765131;
+  }
+  
+  .btn-coffee:focus, .btn-coffee.focus {
+    box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+  }
+  
+  .btn-coffee.disabled, .btn-coffee:disabled {
+    color: #fff;
+    background-color: #563828;
+    border-color: #765131;
+  }
+  
+  .btn-coffee:not(:disabled):not(.disabled):active, .btn-coffee:not(:disabled):not(.disabled).active,
+  .show > .btn-coffee.dropdown-toggle {
+    color: #fff;
+    background-color: #563828;
+    border-color: #765131;
+  }
+  
+  .btn-coffee:not(:disabled):not(.disabled):active:focus, .btn-coffee:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-coffee.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(216, 130, 59, 0.5);
+  }
